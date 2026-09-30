@@ -1,0 +1,191 @@
+/* شروع استایل های هیرو باکس  */
+html, body{
+                margin: 0;
+                height: 100%;
+            }
+            .heroImage{
+
+                background-image:   linear-gradient(rgba(0,0,0,0.5),rgba(49, 14, 120, 0.403)), url('3.png');
+                height: 90%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .hero-text{
+                text-align: center;
+                color:rgb(0, 0, 24);
+                font-family: 'calibri';
+                font-size: 40px;
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+              
+            }
+            .hero-text button{
+                color:whitesmoke;
+                padding: 16px 20px;
+                font-size: 20px;
+                border:none;
+                border-radius: 4px;
+                background-color: blueviolet;
+
+
+            }
+            /* .myvideo{
+                background-color:  linear-gradient(rgba(0,0,0,0.5),rgba(49, 14, 120, 0.403));
+                position: fixed;
+
+                right: 0;
+                bottom: 0;
+                top:0;
+                width: 100%;
+                height: 100%;
+               
+            } */
+
+            /* پایان استایل های هیرو باکس */
+
+            /* شروع استایل های صفحه اسپیس */
+      
+        header{
+           background-color: aliceblue;
+            height: 150px;
+            position: fixed;
+            top:0;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+           
+           
+        }
+        li{
+            display: inline;
+           
+            padding-right: 20px;
+            
+            
+            
+        }
+        .logo{
+            width: 70px;
+            height: auto;
+            padding: 10px 30px;
+            float:left;
+        }
+        .menu{
+            padding:10px;
+            float:right;
+            font-size: 20px;
+
+        }
+        .menu a{
+            color: darkblue;
+            
+            text-decoration: none;
+        }
+        .menu a:hover{
+            color:chocolate;
+            text-decoration: line-through;
+
+        }
+        .imagetop{
+            background-image: url('1.png');
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            background-color: rgb(207, 168, 149);
+            background-attachment: fixed;
+           
+        }
+        .imagebottom{
+            background-image: url('2.png');
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            background-color: rgb(207, 168, 149);
+            background-attachment: fixed;
+           
+        }
+        .cart{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+           border-radius: 10px;
+            color:blue;
+            display: grid;
+        }
+        .cart:hover{
+            box-shadow: 0 8px 16px 0 rgba(76, 5, 78, 0.5);
+        }
+        .cart img{
+            width: 100%;
+        }
+       
+       
+        .soton{
+            width: 28%;
+            float:left;
+            margin:2%
+        }
+        section{
+            padding:100px 0 ;
+        }
+        .matn{
+            margin:0 100px;
+        }
+        .matnFooter{
+            text-align: center;
+        }
+        footer{
+            width: 100%;
+          
+            background-color: blue;
+            color: aliceblue;
+          
+        }
+        .fazayesefid{
+            display: block;
+            text-align: center;
+            padding: 50px 30px;
+        }
+        .fazayesefid p{
+            color:red;
+        }
+        .btn{
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 12px 25px ;
+            margin:20px;
+            border: none;
+            border-radius: 10px;
+        
+        }
+        .btn a{
+            color:aliceblue;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: aliceblue;
+            border:1px solid blueviolet;
+            color:blueviolet
+        }
+        .btn:hover a {
+            color: blueviolet;
+            cursor:move;
+        }
+
+
+        @media only screen and (max-width: 600px){
+            p{
+                font-size: 12px;
+            }
+            .soton{
+                width: 95%;
+            }
+
+        }
